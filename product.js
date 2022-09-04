@@ -1,4 +1,8 @@
-const url = `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`;
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+console.log(id);
+
+const url = `https://kea-alt-del.dk/t7/api/products/${id}`;
 
 //fetch the data
    fetch(url)
