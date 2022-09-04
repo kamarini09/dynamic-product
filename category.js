@@ -11,6 +11,7 @@ function goThroughEach(data){
 //that function
 
 function showBrand(oneBrand){
+    
 //1find the first letter
 const firstLetter = oneBrand.brandname.charAt(0).toLowerCase();
 console.log(`im ${oneBrand.brandname} and my first letter is ${firstLetter} and my selector would be #letter_${firstLetter}`);
