@@ -44,6 +44,7 @@ function showProduct(product){
     //change content
     copy.querySelector(".subtle").textContent = `${product.brandname}`;
     copy.querySelector("h3").textContent = product.productdisplayname;
+    
     copy.querySelector("img.productlistimage").src = `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`
     copy.querySelector("img.productlistimage").alt = product.productdisplayname;
    
